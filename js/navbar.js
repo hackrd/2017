@@ -18,16 +18,5 @@ $(document).scroll(function() {
     $banner.removeClass('nav-bar-fix');
     $banner_links.removeClass('nav-bar-link-fix');
     $banner_links.css('color','white');
-
-    if (scroll_top > nav_barHeight) {
-      $banner.removeClass('nav-bar-fix');
-      $banner_links.removeClass('nav-bar-link-fix');
-      $banner_links.css('color','white');
-    }
-    else {
-      $banner.addClass('nav-bar-fix');
-      $banner_links.addClass('nav-bar-link-fix');
-      $banner_links.css('color','black');
-    }
   }
 })
