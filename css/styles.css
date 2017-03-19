@@ -1,0 +1,144 @@
+/* This code is the property of the River Dell Regional School District and its related entities. It may not be copied or re-used without express permission from the Development Team */
+
+/* Fonts from Google - Istok Web & Overpass Mono */
+@import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700|Overpass+Mono:400,600');
+
+/* Body Elements */
+  body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Istok Web', sans-serif;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+  }
+
+  /* Navbar */
+  #nav {
+    background-color: transparent;
+    color: #FFF;
+  }
+
+  #nav .scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms ease;
+  }
+
+  #nav .scrolled .nav-link {
+    color: #555;
+  }
+
+  /* Header */
+  #header {
+    background-image: url("http://2016.hackriverdell.com/img/rdPhantom.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    height: 100vh;
+  }
+
+  #header-bottom {
+    width: 100%;
+    float: left;
+  }
+
+  #header-content {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: table;
+  }
+
+  #header-overlay {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.75);
+  }
+
+  .header-logo {
+    width: 50%;
+    padding-bottom: 50px;
+  }
+
+  .header-title {
+    font-family: inherit;
+    color: inherit;
+    text-shadow: 0 0 50px black;
+    font-size: 28pt;
+  }
+
+  .header-subtitle {
+    font-family: inherit;
+    color: inherit;
+    text-shadow: 0 0 50px black;
+    font-size: 22pt;
+  }
+
+  /* Header Arrow */
+  @keyframes updown_animation {
+    0% {
+      transform: translate(0, 0);
+    }
+
+    50% {
+      transform: translate(0, -15px);
+    }
+
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+  .up-down {
+    animation-name: updown_animation;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .arrow-down {
+      width: 0;
+      height: 0;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+
+      border-top: 8px solid #FFF;
+  }
+
+  #arrow {
+    position: absolute;
+    left: 50vw;
+    bottom: 2vh;
+    z-index: 500;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  /* Body Sections */
+  #body-content {
+    padding-top: 50px;
+  }
+
+  /* Typography */
+  sh {
+    font-size: 30pt;
+    font-family: 'Overpass Mono', monospace;
+    font-weight: 600;
+    line-height: 75px;
+    border-bottom: 3px solid #FEE003;
+    position: relative;
+
+  }
