@@ -19,23 +19,8 @@
     transition: all 200ms ease-in-out;
   }
 
-  .nav-link {
-    color: white;
-  }
-
-  /* These fix classes are added once the page is scrolled passed the header */
-  .nav-bar-fix {
-    background-color: #fff !important;
-    transition: background-color 200ms ease;
-    position: fixed;
-  }
-
-  .nav-bar-link-fix {
-    color: #555;
-  }*/
-
   .navbar-transparent {
-    background-color: transparent;
+    background-color: transparent !important;
     box-shadow: 0 0 0 0;
     padding: 0.25rem 1rem 0 1rem;
   }
