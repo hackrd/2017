@@ -14,17 +14,23 @@
   }
 
   /* Navbar */
-  /*#nav {
     background-color: transparent;
     color: #FFF;
+    transition: all 200ms ease-in-out;
   }
 
-  #nav .scrolled {
+  .nav-link {
+    color: white;
+  }
+
+  /* These fix classes are added once the page is scrolled passed the header */
+  .nav-bar-fix {
     background-color: #fff !important;
     transition: background-color 200ms ease;
+    position: fixed;
   }
 
-  #nav .scrolled .nav-link {
+  .nav-bar-link-fix {
     color: #555;
   }*/
 
