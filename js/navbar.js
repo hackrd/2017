@@ -13,9 +13,13 @@ $(document).ready(function() {
 
     if (scroll_top >= appear_value) {
       $banner.addClass('navbar-scrolled');
+      $banner.removeClass('navbar-inverse');
+      $banner.addClass('navbar-light');
     }
     else {
       $banner.removeClass('navbar-scrolled');
+      $banner.addClass('navbar-inverse');
+      $banner.removeClass('navbar-light');
     }
   })
 })
