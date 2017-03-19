@@ -14,11 +14,6 @@
   }
 
   /* Navbar */
-  .nav-bar-absolute {
-    position: absolute;
-  }
-
-  #nav {
     background-color: transparent;
     color: #FFF;
     transition: all 200ms ease-in-out;
@@ -37,6 +32,91 @@
 
   .nav-bar-link-fix {
     color: #555;
+  }*/
+
+  .navbar-transparent {
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+    padding: 0.25rem 1rem 0 1rem;
+  }
+
+  .navbar-transparent .navbar-brand,
+  .navbar-transparent .navbar-text {
+    color: rgb(255, 255, 255);
+  }
+
+  .navbar-transparent .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: 3.5px solid transparent;
+    transition: all 0.2s ease;
+  }
+
+  .navbar-transparent .nav-link,
+  .navbar-transparent .nav-item:hover .nav-link {
+    font-size: 12pt;
+    color: #FFF;
+    border-bottom: 3.5px solid #FAFAFA;
+    transition: all 0.2s ease;
+  }
+
+  .navbar-transparent .nav-item .active {
+    border-bottom: 3.5px solid #FEE003 !important;
+  }
+
+  .navbar-transparent .dropdown-menu {
+    background-color: #FFF;
+  }
+  .navbar-transparent .dropdown-item {
+    color: #000;
+  }
+  .navbar-transparent .dropdown-item:hover,
+  .navbar-transparent .dropdown-item:focus {
+    color: #333333;
+    background-color: rgba(255,255,255,.5);
+  }
+
+  /* Scrolled Nav */
+  .navbar-scrolled {
+    background-color: #fafafa;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 0.25rem 1rem 0 1rem;
+  }
+
+  .navbar-scrolled .navbar-brand,
+  .navbar-scrolled .navbar-text {
+    color: rgb(17, 17, 17);
+  }
+
+  .navbar-scrolled .navbar-nav .nav-link {
+    color: rgba(17, 17, 17, 0.5);
+    border-bottom: 3.5px solid transparent;
+    transition: all 0.2s ease;
+  }
+
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .nav-item:hover .nav-link {
+    font-size: 12pt;
+    color: rgb(17, 17, 17);
+    border-bottom: 3.5px solid rgb(130, 130, 130);
+    transition: all 0.2s ease;
+  }
+
+  .navbar-scrolled .nav-item .active {
+    color: rgb(17, 17, 17);
+    border-bottom: 3.5px solid #FEE003 !important;
+  }
+
+  /* for dropdown only - change the color of droodown */
+  .navbar-scrolled .dropdown-menu {
+    background-color: #FFF;
+  }
+  .navbar-scrolled .dropdown-item {
+    color: #000;
+  }
+  .navbar-scrolled .dropdown-item:hover,
+  .navbar-scrolled .dropdown-item:focus {
+    color: #333333;
+    background-color: rgba(255,255,255,.5);
   }
 
   /* Header */
@@ -102,7 +182,7 @@
     }
 
     50% {
-      transform: translate(0, -15px);
+      transform: translate(0, -13.5px);
     }
 
     100% {
@@ -148,7 +228,7 @@
     font-size: 30pt;
     font-family: 'Overpass Mono', monospace;
     font-weight: 600;
-    line-height: 75px;
+    line-height: 73.5px;
     border-bottom: 3px solid #FEE003;
     position: relative;
 
