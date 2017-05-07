@@ -1,0 +1,30 @@
+/* This code is the property of the River Dell Regional School District and its related entities. It may not be copied or re-used without express permission from the Development Team */
+/* Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
+
+body {
+  color: #000;
+  background-color: #FFF;
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  background: #057AFF;
+  color: #fff;
+}
+::-moz-selection {
+  background: #057AFF;
+  color: #fff;
+}
+
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  opacity: 50%;
+}
