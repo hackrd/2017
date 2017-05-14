@@ -28,3 +28,110 @@ a:hover {
   color: inherit;
   opacity: 50%;
 }
+
+#header {
+  color: #FFF;
+  background: linear-gradient(to bottom right, #057AFF, #42449D);
+  background-repeat: no-repeat;
+  height: 90%;
+}
+
+.logo {
+  transform: translate(50%, 30%);
+  width: 50%;
+  text-align: center;
+}
+
+.logo-overlay h1 {
+  font-size: 80pt;
+  font-weight: 500;
+  width: 100%;
+}
+
+.logo-overlay h3 {
+  font-weight: 300;
+}
+
+.logo-overlay {
+  transform: translate(0%, -125%);
+  z-index: 999;
+  text-align: center;
+}
+
+.section-card {
+  padding-top: 2px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.2);
+  padding: 30px 0px 30px 30px;
+  background-color: #fff;
+}
+
+#card-info {
+  margin-top: -3rem;
+  text-align: center;
+}
+
+#card-info h3 {
+  font-size: 14pt;
+  margin: auto;
+  margin-top: 0.75rem;
+
+}
+/*
+#sign-up-box {
+  width: 10px !important;
+  padding: 0 !important;
+}*/
+
+.btn-one {
+  color: rgb(255,255,255) !important;
+  background-color: transparent;
+  border-radius: 0px;
+  border-width: 2px;
+  border-color: #fff;
+  font-weight: 300 !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14pt;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+
+}
+
+.btn-one:hover {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.5);
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+
+}
+
+#card-info .btn-two {
+  margin-left: 0rem;
+  width: 150px;
+}
+
+.btn-two {
+  color: #42449D !important;
+  background-color: transparent;
+  border-radius: 0px;
+  border-width: 2px;
+  border-color: #42449D;
+  font-weight: 500 !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14pt;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+
+}
+
+.btn-two:hover {
+  color: #42449D !important;
+  background-color: rgba(66, 68, 157, 0.5);
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+
+}
