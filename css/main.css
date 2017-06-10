@@ -1,13 +1,26 @@
 /* This code is the property of the River Dell Regional School District and its related entities. It may not be copied or re-used without express permission from the Development Team */
 /* Poppins font from Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600');
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 7rem;
+  min-height: 100%;
   color: #000;
   background-color: #F7F7F7;
-  height: 100%;
   width: 100%;
-  overflow-y: auto;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -31,14 +44,27 @@ a:hover {
   opacity: .75;
 }
 
-
-
 #header {
   color: #FFF;
   background: linear-gradient(to bottom right, #057AFF, #42449D);
   background-repeat: no-repeat;
   height: 90%;
   z-index: -99999999999;
+}
+
+
+#footer {
+  color: #FFF;
+  background: linear-gradient(to right, #057AFF, #42449D);
+  height: 5%;
+  position: absolute;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 1rem;
 }
 
 #logo-center {
@@ -103,6 +129,53 @@ a:hover {
   margin-top: 0.75rem;
 
 }
+
+.thumbnail-card {
+  background-color: #fff;
+  border-radius: 0px;
+  border-color: transparent;
+  max-width: 325px;
+  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.2);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.faq-card {
+  background-color: #fff;
+  border-top: 3px solid #333399;
+  border-radius: 0px;
+  padding: 20 20 10 20;
+  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.2);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.faq-title {
+  font-weight: 600;
+}
+
+.card-text {
+  color: #9a9a9a;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-subtitle {
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+}
+
+.card-details {
+  padding: 20 10 10 10;
+}
+
+.img-card {
+  max-width: 100%;
+
+}
+
 /*
 #sign-up-box {
   width: 10px !important;
@@ -111,13 +184,20 @@ a:hover {
 
 .section-heading {
   display: inline-block;
-  font-size: 20pt;
+  font-size: 22pt;
   padding-bottom: 13px;
+  font-weight: 600;
+}
+
+#vcenter {
+  display: inline-block;
+   vertical-align: middle;
+   float: none;
 }
 
 .heading-separator {
   display: block;
-  width: 150px;
+  width: 100px;
   border-top: 2px solid #d9d9d9;
   padding-bottom: 1rem;
 }
@@ -162,11 +242,11 @@ a:hover {
 }
 
 .btn-two {
-  color: #42449D !important;
+  color: #333399 !important;
   background-color: transparent;
   border-radius: 0px;
   border-width: 2px;
-  border-color: #42449D;
+  border-color: #333399;
   font-weight: 500 !important;
   font-family: 'Poppins', sans-serif;
   font-size: 14pt;
@@ -177,8 +257,8 @@ a:hover {
 }
 
 .btn-two:hover {
-  color: #42449D !important;
-  background-color: rgba(66, 68, 157, 0.5);
+  color: #333399 !important;
+  background-color: rgba(51, 51, 153, 0.5);
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
 	transition: all ease 0.2s;
