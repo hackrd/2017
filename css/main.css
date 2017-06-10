@@ -4,9 +4,10 @@
 
 body {
   color: #000;
-  background-color: #FFF;
+  background-color: #F7F7F7;
   height: 100%;
   width: 100%;
+  overflow-y: auto;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -21,31 +22,47 @@ body {
 
 a {
   cursor: pointer;
-  color: inherit;
+  color: #333399;
 }
 
 a:hover {
   color: inherit;
-  opacity: 50%;
+  color: #333399;
+  opacity: .75;
 }
+
+
 
 #header {
   color: #FFF;
   background: linear-gradient(to bottom right, #057AFF, #42449D);
   background-repeat: no-repeat;
   height: 90%;
+  z-index: -99999999999;
+}
+
+#logo-center {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .logo {
-  transform: translate(50%, 30%);
-  width: 50%;
+  /*transform: translate(50%, 25%);*/
+  width: 65%;
   text-align: center;
 }
 
+.logo-wrapper {
+  position:absolute;
+  height:100%;
+  text-align: center;
+  z-index: -99;
+}
+
 .logo-overlay h1 {
-  font-size: 80pt;
+  font-size: 70pt;
   font-weight: 500;
-  width: 100%;
 }
 
 .logo-overlay h3 {
@@ -53,9 +70,18 @@ a:hover {
 }
 
 .logo-overlay {
-  transform: translate(0%, -125%);
-  z-index: 999;
+  position: absolute;
+  z-index: 99999999999;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40%;
+  max-width: 100%;
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .section-card {
@@ -82,6 +108,29 @@ a:hover {
   width: 10px !important;
   padding: 0 !important;
 }*/
+
+.section-heading {
+  display: inline-block;
+  font-size: 20pt;
+  padding-bottom: 13px;
+}
+
+.heading-separator {
+  display: block;
+  width: 150px;
+  border-top: 2px solid #d9d9d9;
+  padding-bottom: 1rem;
+}
+
+.img-standalone {
+  width: 100%;
+  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.2);
+}
+
+.img-standalone-wide {
+  width: 100%;
+  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.2);
+}
 
 .btn-one {
   color: rgb(255,255,255) !important;
@@ -135,3 +184,53 @@ a:hover {
 	transition: all ease 0.2s;
 
 }
+
+#mobile-img {
+  display: none;
+}
+
+
+/* Portrait and Landscape */
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .logo-overlay {
+      font-size: 35pt;
+    }
+
+    .section-heading {
+      padding-top: 30px;
+    }
+
+    #mobile-img {
+      display: block !important;
+    }
+
+    #desktop-img {
+      display: none !important;
+    }
+
+  }
+
+  /* Portrait */
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+
+  }
+
+  /* Landscape */
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+
+
+  }
