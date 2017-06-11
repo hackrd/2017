@@ -12,12 +12,12 @@ $(document).ready(function() {
     scroll_top = $(window).scrollTop();
 
     if (scroll_top >= appear_value) {
-      $banner.addClass('navbar-scrolled');
+      $banner.addClass('navbar-default');
       $banner.removeClass('navbar-inverse');
       $banner.addClass('navbar-light');
     }
     else {
-      $banner.removeClass('navbar-scrolled');
+      $banner.removeClass('navbar-default');
       $banner.addClass('navbar-inverse');
       $banner.removeClass('navbar-light');
     }
