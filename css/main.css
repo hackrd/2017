@@ -379,14 +379,17 @@ td {
 }
 
 .navbar-transparent {
-  visibility: hidden;
-  /*background-color: transparent;
-  box-shadow: 0 0 0 0;*/
+  background-color: transparent;
+  box-shadow: 0 0 0 0;
 }
-/*
+
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-text {
   color: #fff;
+}
+
+.navbar-transparent .brand-logo {
+  content: url("https://github.com/hackrd/2017/blob/master/img/hawk-light.png?raw=true")
 }
 
 .navbar-transparent .navbar-nav .nav-link {
@@ -419,7 +422,6 @@ td {
   background-color: rgba(255,255,255,.5);
 }
 
-*/
 
 .navbar-inverse .navbar-toggler {
   margin-top: 0rem;
@@ -453,6 +455,10 @@ td {
   color: #0077CF;
   font-weight: 500;
 
+}
+
+.navbar-scrolled .brand-logo {
+  content: url("https://github.com/hackrd/2017/blob/master/img/hawk.png?raw=true")
 }
 
 .navbar-scrolled .navbar-nav .nav-link {
