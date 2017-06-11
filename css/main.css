@@ -161,6 +161,8 @@ a:hover {
 
 }
 
+
+
 .thumbnail-card {
   background-color: #fff;
   border-radius: 0px;
@@ -201,6 +203,7 @@ a:hover {
 
 .card-details {
   padding: 20 20 20 20;
+  text-align: left !important;
 }
 
 .img-card {
@@ -578,6 +581,10 @@ td {
       display: none !important;
     }
 
+    .nav-pills .nav-link {
+      font-size: 12pt;
+    }
+
 
   }
 
@@ -610,6 +617,29 @@ td {
       width: 85%;
       margin-top: -5rem;
       margin-left: -1rem;
+    }
+
+    td {
+     font-size: 11pt;
+    }
+
+    #event-time {
+      width: 75px;
+    }
+
+    #event-name {
+      width: 200px;
+    }
+    #event-location {
+      width: 100px;
+    }
+
+    #event-notes {
+      display: none;
+    }
+
+    .schedule-muted {
+      display: none;
     }
 
 
@@ -657,6 +687,24 @@ td {
       max-width: 50%;
     }
 
+    td {
+     font-size: 11pt;
+    }
+
+    #event-time {
+      width: 60px;
+    }
+
+    #event-name {
+      width: 175px;
+    }
+    #event-location {
+      width: 150px;
+    }
+
+    #event-notes {
+      display: none;
+    }
 
 
 
