@@ -490,8 +490,8 @@ td {
 }
 
 .navbar-scrolled .nav-item .active {
-  color: #333399 !important;
-  border-bottom: 3.5px solid #333399 !important;
+  color: #3A3C83 !important;
+  border-bottom: 3.5px solid #3A3C83 !important;
 }
 
 .navbar-scrolled .dropdown-menu {
@@ -605,6 +605,11 @@ td {
       font-size: 12pt;
     }
 
+    .section {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
 
   }
 
@@ -616,7 +621,7 @@ td {
   and (orientation: portrait) {
 
     body {
-      padding-bottom: 10rem;
+      padding-bottom: 12rem;
     }
 
     .footer {
@@ -693,6 +698,13 @@ td {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
+    body {
+      padding-bottom: 12rem;
+    }
+
+    #header {
+      height: 20rem;
+    }
 
     .footer-content {
       position: relative;
@@ -721,7 +733,7 @@ td {
     }
 
     #card-info {
-      display: none;
+      font-size: 10pt !important;
     }
 
     .thumbnail-card {
