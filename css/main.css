@@ -53,18 +53,44 @@ a:hover {
 }
 
 
-#footer {
+.footer {
   color: #FFF;
   background: linear-gradient(to right, #057AFF, #42449D);
-  height: 5%;
+  height: 10rem;
   position: absolute;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: 1rem;
   bottom: 0;
   right: 0;
   left: 0;
-  padding: 1rem;
+}
+
+.footer-content {
+  position: relative;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.footer-links {
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 1rem;
+}
+
+.footer-link {
+  color: #fff;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.footer-logo {
+  max-width: 150px;
+  padding-bottom: 10px;
 }
 
 #logo-center {
@@ -467,6 +493,24 @@ a:hover {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
+    .footer-content {
+      text-align: center;
+    }
+
+    .footer-links {
+      text-align: center;
+      position: relative !important;
+      font-size: 9pt;
+      margin-top: -15 !important;
+      max-height: 50%;
+      padding-bottom: 0 !important;
+    }
+
+    .footer-logo {
+      max-width: 120px;
+      padding-bottom: 10px;
+    }
+
 
   }
 
@@ -476,6 +520,27 @@ a:hover {
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+
+    .footer-content {
+      position: relative;
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+
+    .footer-links {
+      text-align: right;
+      bottom: 0;
+      left: 10;
+      right: 0;
+      padding-bottom: 1rem;
+      font-size: 10pt;
+    }
+
+    .footer-logo {
+      max-width: 125px;
+      padding-bottom: 10px;
+    }
+
 
 
 
