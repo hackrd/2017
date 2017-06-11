@@ -183,6 +183,7 @@ a:hover {
 
 .faq-title {
   font-weight: 600;
+
 }
 
 .card-text {
@@ -294,7 +295,7 @@ a:hover {
 .nav-pills .nav-link {
   font-weight: 500;
   color: #7a7a7a;
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
 .nav-pills .nav-link > .active {
@@ -307,7 +308,7 @@ a:hover {
     cursor: default;
     background-color: transparent;
     border-radius: 0px;
-    border-bottom: 3px solid #333399;
+    border-bottom: 3px solid #5855D6;
 
 }
 
@@ -316,13 +317,28 @@ a:hover {
 }
 
 .schedule-row {
-  background-color: #eeeeee;
-  border-radius: 5px;
+  background-color: #ECEFF1;
+  border-radius: 10px;
   padding: 10 10 10 10;
+  margin-bottom: 0.5rem;
 }
 
+.schedule-muted {
+  color: #A6AAA8;
+}
+
+.schedule-link {
+  font-weight: 400;
+  font-size: 12pt;
+  color: #5855D6;rgba(88, 85, 214, 0.78)
+}
+
+.schedule-link:hover {
+  color: rgba(88, 85, 214, 0.75);
+}
+
+
 table {
- float: left;
  display: table;
  width: 100%;
  border-collapse: collapse;
@@ -331,14 +347,27 @@ tr {
  display: table-row;
  width: 100%;
  padding: 0;
- background-color: #eeeeee;
- border-radius: 10px;
- margin-bottom: 1rem;
 
 }
 td {
  font-weight: bold;
  display: table-cell;
+ font-size: 14pt;
+}
+
+#event-time {
+  width: 200px;
+}
+
+#event-name {
+  width: 350px;
+}
+#event-location {
+  width: 250px;
+}
+
+#event-notes {
+  text-align: right;
 }
 
 /* Navbar */
