@@ -88,6 +88,20 @@ a:hover {
   color: #fff;
 }
 
+.icon {
+  max-width: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+
+.icon:hover {
+  opacity: 0.75;
+  transition: all 0.2s ease;
+}
+
 .footer-logo {
   max-width: 150px;
   padding-bottom: 10px;
@@ -601,6 +615,26 @@ td {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
+    body {
+      padding-bottom: 10rem;
+    }
+
+    .footer {
+      height: 12rem;
+    }
+
+    .social-icons {
+      padding-top: 1rem;
+    }
+
+    .icon {
+      max-width: 30px;
+      padding-left: 3px;
+      padding-right: 3px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
     .footer-content {
       text-align: center;
     }
@@ -608,7 +642,7 @@ td {
     .footer-links {
       text-align: center;
       position: relative !important;
-      font-size: 9pt;
+      font-size: 11pt;
       margin-top: -15 !important;
       max-height: 50%;
       padding-bottom: 0 !important;
@@ -649,6 +683,7 @@ td {
     }
 
 
+
   }
 
   /* Landscape */
@@ -657,6 +692,7 @@ td {
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+
 
     .footer-content {
       position: relative;
