@@ -11,10 +11,41 @@
       <link rel="stylesheet" href="css/main.css">
       <link rel="stylesheet" href="css/animate.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-      <script src="js/tether.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="js/navbar.js"></script>
       <script src="js/bootstrap.js"></script>
     </head>
     <body data-spy="scroll" data-target="#nav">
+      <nav class="navbar navbar-toggleable-md fixed-top navbar-transparent navbar-inverse" id="nav">
+        <button class="navbar-toggler navbar-toggler-left collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Hack River Dell</a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#info">Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#guests">Guests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#schedule">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sponsors">Sponsors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#register">Sign up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
       <div class="container-fluid" id="header">
         <div class="logo-wrapper">
@@ -33,7 +64,7 @@
               <h3>River Dell High School - Oradell, NJ<h3>
         		</div>
         		<div class="col-sm-3" id="sign-up-box">
-              <a href="#" class="btn btn-two">Sign up</a>
+              <a href="#" class="btn btn-two btn-block">Sign up</a>
         		</div>
         	</div>
         </div>
@@ -60,9 +91,9 @@
       </div>
 
       <div class="container section" id="guests">
-        <h3 class="section-heading">Guests</h3>
-        <span class="heading-separator"></span>
         <div class="container-fluid">
+          <h3 class="section-heading">Guests</h3>
+          <span class="heading-separator"></span>
         	<div class="row">
         		<div class="col-md-4">
               <div class="thumbnail-card">
@@ -99,20 +130,37 @@
       </div>
 
       <div class="container section" id="faq">
-        <h3 class="section-heading">FAQs</h3>
-        <span class="heading-separator"></span>
-        <div>
+        <div class="container-fluid">
+          <h3 class="section-heading">FAQs</h3>
+          <span class="heading-separator"></span>
         	<div class="row">
         		<div class="col-md-6">
               <div class="faq-card">
                 <h3 class="faq-title">What is a hackerczon</h3>
                 <p>That is a great question. Fundamentally, a hackerczon is a feeder program for the code companies. Lot of companies recruit at hackerczon. Hackerczon is about coding a hack with 24 hour time given to each team.
               </div>
+              <div class="faq-card">
+                <h3 class="faq-title">What is a hackerczon</h3>
+                <p>That is a great question. Fundamentally, a hackerczon is a feeder program for the code companies. Lot of companies recruit at hackerczon. Hackerczon is about coding a hack with 24 hour time given to each team. This FAQ card has slightly more information. This is done to test how well all the cards mesh together when assembled in a grid.
+              </div>
         		</div>
         		<div class="col-md-6">
+              <div class="faq-card">
+                <h3 class="faq-title">What is a hackerczon</h3>
+                <p>That is a great question. Fundamentally, a hackerczon is a feeder program for the code companies. Lot of companies recruit at hackerczon. Hackerczon is about coding a hack with 24 hour time given to each team. This FAQ card has slightly more information. This is done to test how well all the cards mesh together when assembled in a grid.
+              </div>
+              <div class="faq-card">
+                <h3 class="faq-title">What is a hackerczon</h3>
+                <p>That is a great question. Fundamentally, a hackerczon is a feeder program for the code companies. Lot of companies recruit at hackerczon. Hackerczon is about coding a hack with 24 hour time given to each team.
+              </div>
         		</div>
         	</div>
         </div>
+      </div>
+
+      <div class="container section" id="faq">
+        <h3 class="section-heading">Sponsors</h3>
+        <span class="heading-separator"></span>
       </div>
 
 

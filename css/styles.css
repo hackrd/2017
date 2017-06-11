@@ -40,7 +40,7 @@
   }
 
   .navbar-transparent .nav-item .active {
-    border-bottom: 3.5px solid #FEE003 !important;
+    border-bottom: 3.5px solid #333399 !important;
   }
 
   .navbar-transparent .dropdown-menu {
@@ -94,7 +94,7 @@
 
   .navbar-scrolled .nav-item .active {
     color: rgb(17, 17, 17);
-    border-bottom: 3.5px solid #FEE003 !important;
+    border-bottom: 3.5px solid #333399 !important;
   }
 
   .navbar-scrolled .dropdown-menu {
@@ -286,7 +286,7 @@
     font-family: 'Overpass Mono', monospace;
     font-weight: 600;
     line-height: 73.5px;
-    border-bottom: 3px solid #FEE003;
+    border-bottom: 3px solid #333399;
     position: relative;
 
   }
