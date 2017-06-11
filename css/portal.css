@@ -1,0 +1,122 @@
+body {
+  color: #7a7a7a;
+  background: linear-gradient(to bottom right, #057AFF, #42449D);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  background: #057AFF;
+  color: #fff;
+}
+::-moz-selection {
+  background: #057AFF;
+  color: #fff;
+}
+
+a {
+  cursor: pointer;
+  color: #333399;
+}
+
+a:hover {
+  color: inherit;
+  color: #333399;
+  opacity: .75;
+}
+
+#footer {
+  position: fixed;
+  bottom:10px;
+  height:30px;
+  width:100%;
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.25);
+  z-index: 999;
+  text-align: center;
+  font-size: 13pt;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.brand {
+  padding: 1.5rem 0 0.5rem 0;
+  color: #0077CF;
+}
+
+.action-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.2);
+  padding: 60px 40px 20px 40px;
+  width: 450px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.action-text {
+  padding: 0 0 1.5rem 0;
+  color: #7a7a7a;
+}
+
+.action-link {
+  color: #7a7a7a;
+}
+
+.action-link:hover {
+  color: #7a7a7a;
+  opacity: .75;
+}
+
+.btn-one {
+  color: #fff;
+  font-family: inherit;
+  background-color: #333399;
+  border-color: #333399;
+
+}
+
+.btn-one:hover {
+  opacity: .75;
+}
+
+.btn-one:focus {
+  opacity: .5;
+}
+
+form {
+  padding-bottom: 1rem;
+}
+
+input {
+  font-family: 'Poppins', sans-serif;-
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
+  border-color: #DCDEE0;
+  color: #DCDEE0;
+  background-color: #F1F3F6;
+}
+input[type="date"] {
+  margin-bottom: 10px;
+  border-color: #DCDEE0;
+  color: #DCDEE0;
+  background-color: #F1F3F6;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-color: #DCDEE0;
+  color: #DCDEE0;
+  background-color: #F1F3F6;
+}
