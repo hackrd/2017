@@ -681,7 +681,7 @@ tr {
     }
 
     td {
-     font-size: 11pt;
+     font-size: 11pt !important;
     }
 
     #event-time {
@@ -758,7 +758,7 @@ tr {
     }
 
     td {
-     font-size: 11pt;
+     font-size: 11pt !important;
     }
 
     #event-time {
