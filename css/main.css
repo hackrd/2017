@@ -685,18 +685,18 @@ tr {
     }
 
     #event-time {
-      width: 75px;
+      width: 75px !important;
     }
 
     #event-name {
-      width: 200px;
+      width: 200px !important;
     }
     #event-location {
-      width: 100px;
+      width: 100px !important;
     }
 
     #event-notes {
-      display: none;
+      display: none !important;
     }
 
     .schedule-muted {
@@ -762,18 +762,18 @@ tr {
     }
 
     #event-time {
-      width: 60px;
+      width: 60px !important;
     }
 
     #event-name {
-      width: 175px;
+      width: 175px !important;
     }
     #event-location {
-      width: 150px;
+      width: 150px !important;
     }
 
     #event-notes {
-      display: none;
+      display: none !important;
     }
 
 
