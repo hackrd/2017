@@ -685,14 +685,14 @@ tr {
     }
 
     #event-time {
-      width: 75px !important;
+      width: 70px !important;
     }
 
     #event-name {
-      width: 200px !important;
+      width: 130px !important;
     }
     #event-location {
-      width: 100px !important;
+      width: 80px !important;
     }
 
     #event-notes {
