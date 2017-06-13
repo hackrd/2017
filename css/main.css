@@ -262,11 +262,12 @@ a:hover {
 }
 
 .sponsor-img {
-  max-width: 150px;
+  max-width: 200px;
 }
 
 .sponsor-row {
   text-align: center;
+  padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
