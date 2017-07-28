@@ -3,13 +3,19 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600');
 
 /* FIXERS */
-/* PUT BEFORE EVERYTHING ELSE */
+/* PRIORITY COMPILING */
+/* PUT BEFORE EVERYTHING ELSE IN ORDER TO OVERRIDE OTHERS */
 .navbar-fix {
   position: absolute;
   top: 0;
 }
 
-  /* END FIXERS */
+#navbar-container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+/* END FIXERS */
 html {
   height: 100%;
   box-sizing: border-box;
@@ -234,7 +240,6 @@ a:hover {
 
 .img-card {
   max-width: 100%;
-
 }
 
 /*
@@ -595,7 +600,6 @@ tr {
 .navbar-toggler.collapsed .bottom-bar {
   transform: rotate(0);
 }
-
 
 #mobile-img {
   display: none;
