@@ -15,11 +15,13 @@ $(document).ready(function() {
       $banner.addClass('navbar-default');
       $banner.removeClass('navbar-inverse');
       $banner.addClass('navbar-light');
+      $banner.removeClass('navbar-fix');
     }
     else {
       $banner.removeClass('navbar-default');
       $banner.addClass('navbar-inverse');
       $banner.removeClass('navbar-light');
+      $banner.addClass('navbar-fix');
     }
   })
 })
