@@ -223,7 +223,7 @@ a:hover {
 .signup-card {
   background-color: #fff;
   border-radius: 0px;
-  padding: 30 30 30 30;
+  padding: 30 30 20 30;
   box-shadow: 0 2px 20px 0 rgba(0,0,0,0.2);
   margin-bottom: 2rem;
   margin-top: 1rem;
@@ -235,6 +235,10 @@ a:hover {
 }
 
 #bottom-signup {
+  padding-top: 1rem;
+}
+
+#codeofconduct {
   padding-top: 1rem;
 }
 
@@ -326,7 +330,7 @@ a:hover {
   border-color: #333399;
   font-weight: 500 !important;
   font-family: 'Poppins', sans-serif;
-  font-size: 14pt;
+
   max-width: 100%;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
