@@ -66,6 +66,28 @@ a:hover {
   z-index: -99999999999;
 }
 
+#header-sm {
+  color: #FFF;
+  background: linear-gradient(150deg, #057AFF 0%, #42449D 85%);
+  background-repeat: no-repeat;
+  height: 18rem;
+  z-index: -99999999999;
+}
+
+#page-head {
+  padding-top: 7rem;
+}
+
+.page-title {
+  font-size: 40pt;
+}
+
+.page-subtitle {
+  font-size: 16pt;
+  font-weight: 400;
+  padding-top: 0.5rem;
+}
+
 
 .footer {
   color: #FFF;
@@ -549,7 +571,7 @@ tr {
 }
 
 .navbar-default .navbar-brand,
-.navbar-default .navbar-text, .navbar-default .navbar-brand:hover {
+.navbar-default .navbar-text, .navbar-default .navbar-brand:hover .navbar-brand:focus {
   color: #0077CF;
   font-weight: 500;
 
