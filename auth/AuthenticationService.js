@@ -46,6 +46,7 @@ var AUTH = null;
     });
 
     ButtonLogOut.click(function (e) {
+        window.location = "../Eventman/logout.html";
         AUTH.signOut();
         gUser.Reset();
     });
@@ -53,7 +54,7 @@ var AUTH = null;
     // Listener
     AUTH.onAuthStateChanged(firebaseUser => {
         if (firebaseUser) {
-            console.log(firebaseUser);
+            console.log("User Logged In");
             gUser.User = AUTH.currentUser;
             gUser.User.providerData.forEach(function (pProfile) {
                 gUser.ID = pProfile.uID;
@@ -68,9 +69,9 @@ var AUTH = null;
 
 // Redirect upon success
 function IsSuccess() {
-    window.location = "http://hackriverdell.com/";
+    window.location = "../Eventman/index.html";
 }
 
 function IsFailure() {
-
+    window.location = "../2017/login.html";
 }
