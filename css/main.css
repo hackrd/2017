@@ -770,12 +770,8 @@ tr {
     }
 
     .brand-logo {
-      margin-left: 0rem;
-      max-width: 3rem;
-    }
-
-    .navbar-brand {
       margin-left: 3rem;
+      max-width: 3rem;
     }
 
     td {
