@@ -769,6 +769,11 @@ tr {
       margin-left: -1rem;
     }
 
+    .brand-logo {
+      margin-left: -5rem;
+      max-width: 3rem;
+    }
+
     td {
      font-size: 11pt !important;
     }
@@ -837,6 +842,11 @@ tr {
       margin-left: -2rem;
     }
 
+    .brand-logo {
+      margin-left: -3rem;
+      max-width: 4rem;
+    }
+
     #card-info {
       font-size: 10pt !important;
     }
@@ -864,7 +874,6 @@ tr {
     #event-notes {
       display: none !important;
     }
-
 
 
   }
