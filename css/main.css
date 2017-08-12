@@ -626,7 +626,7 @@ tr {
 
 @media (max-width: 991px) {
   .navbar-brand {
-    padding-left: 2rem;
+    padding-left: 3.5rem;
   }
 }
 
@@ -843,7 +843,7 @@ tr {
     }
 
     .brand-logo {
-      margin-left: -1rem;
+      margin-left: -3rem;
       max-width: 4rem;
     }
 
