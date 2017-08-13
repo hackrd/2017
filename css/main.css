@@ -59,10 +59,11 @@ a:hover {
 }
 
 #header {
+  display: table;
   color: #FFF;
   background: linear-gradient(to bottom right, #057AFF, #42449D);
   background-repeat: no-repeat;
-  height: 90%;
+  height: 90vh;
   z-index: -99999999999;
 }
 
@@ -161,16 +162,22 @@ a:hover {
 }
 
 .logo {
-  /*transform: translate(50%, 25%);*/
-  width: 50%;
-  text-align: center;
+  margin: auto;
+  max-width: 55vw;
 }
 
 .logo-wrapper {
-  position:absolute;
-  height: 100%;
+  display: block;
+  position: absolute;
+  max-height: 10rem;
   text-align: center;
   z-index: -99;
+}
+
+.logo-container {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .logo-overlay h1 {
@@ -626,7 +633,7 @@ tr {
 
 @media (max-width: 991px) {
   .navbar-brand {
-    padding-left: 3.5rem;
+    padding-left: 0rem;
   }
 }
 
@@ -683,6 +690,16 @@ tr {
   display: none;
 }
 
+#mlh-trust-badge {
+  display: block;
+  max-width: 75px;
+  min-width: 60px;
+  position: absolute;
+  right: 30px;
+  top: 0;
+  width: 10%;
+  z-index: 10000;
+}
 
 /* Portrait and Landscape */
   @media only screen
@@ -764,13 +781,10 @@ tr {
     }
 
     .logo {
-      width: 85%;
-      margin-top: -5rem;
-      margin-left: -1rem;
+      max-width: 85%;
     }
 
     .brand-logo {
-      margin-left: -5rem;
       max-width: 3rem;
     }
 
@@ -797,6 +811,9 @@ tr {
       display: none;
     }
 
+    #mlh-trust-badge {
+      right: 10px;
+    }
 
 
   }
@@ -843,7 +860,6 @@ tr {
     }
 
     .brand-logo {
-      margin-left: -3rem;
       max-width: 4rem;
     }
 
