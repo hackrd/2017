@@ -788,6 +788,18 @@ tr {
       max-width: 3rem;
     }
 
+    #card-info h3 {
+      font-size: 12pt;
+
+    }
+
+    .section-card {
+      padding-top: 2px;
+      width: 90%;
+      padding: 10px 10px 10px 10px;
+      background-color: #fff;
+    }
+
     td {
      font-size: 11pt !important;
     }
@@ -860,8 +872,15 @@ tr {
       max-width: 4rem;
     }
 
-    #card-info {
-      font-size: 10pt !important;
+    #card-info h3 {
+      font-size: 10pt;
+
+    }
+
+    .section-card {
+      padding-top: 2px;
+      width: 90%;
+      padding: 20px 0px 20px 20px;
     }
 
     .thumbnail-card {
