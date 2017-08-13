@@ -63,7 +63,7 @@ a:hover {
   color: #FFF;
   background: linear-gradient(to bottom right, #057AFF, #42449D);
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 80vh;
   z-index: -99999999999;
 }
 
@@ -829,9 +829,6 @@ tr {
       padding-bottom: 12rem;
     }
 
-    #header {
-      height: 20rem;
-    }
 
     .footer-content {
       position: relative;
