@@ -148,7 +148,7 @@ a:hover {
 }
 
 .brand-logo {
-  width: 75px;
+  width: auto;
   padding-right: .5rem;
 }
 
@@ -778,9 +778,9 @@ tr {
       max-width: 85%;
     }
 
-    .brand-logo {
+    /*.brand-logo {
       max-width: 3rem;
-    }
+    }*/
 
     #card-info h3 {
       font-size: 12pt;
@@ -862,9 +862,9 @@ tr {
       margin-left: -2rem;
     }
 
-    .brand-logo {
+    /*.brand-logo {
       max-width: 4rem;
-    }
+    }*/
 
     #card-info h3 {
       font-size: 10pt;
