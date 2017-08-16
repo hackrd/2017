@@ -371,6 +371,10 @@ a:hover {
 
 }
 
+.btn-extend {
+  width: 15rem;
+}
+
 .btn-three {
   color: #095bb8 !important;
   background-color: transparent;
