@@ -2,20 +2,11 @@
 /* Poppins font from Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600');
 
-/* FIXERS */
-/* PRIORITY COMPILING */
-/* PUT BEFORE EVERYTHING ELSE IN ORDER TO OVERRIDE OTHERS */
 .navbar-fix {
   position: absolute;
   top: 0;
 }
 
-/*#navbar-container {
-  width: 1300px;
-  margin: 0 auto;
-}*/
-
-/* END FIXERS */
 html {
   height: 100%;
   box-sizing: border-box;
@@ -481,6 +472,7 @@ tr {
 }
 
 #event-notes {
+  display: none !important;
   text-align: right;
 }
 
