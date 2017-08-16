@@ -569,6 +569,7 @@ tr {
   visibility: visible;
   background-color: #fff !important;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
 }
 
 .navbar-default .navbar-brand,
