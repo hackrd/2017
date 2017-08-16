@@ -508,7 +508,9 @@ tr {
 }
 
 .navbar-transparent .brand-logo {
-  content: url("https://github.com/hackrd/2017/blob/master/img/hawk-light.png?raw=true")
+  content: url("../img/nav-title-white.png");
+  height: 2rem;
+  width: auto;
 }
 
 .navbar-transparent .navbar-nav .nav-link {
@@ -577,7 +579,7 @@ tr {
 }
 
 .navbar-default .brand-logo {
-  content: url("https://github.com/hackrd/2017/blob/master/img/hawk.png?raw=true")
+  content: url("../img/nav-title.png")
 }
 
 .navbar-default .navbar-nav .nav-link {
