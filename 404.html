@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>404 - Hack River Dell 2017</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+      window.onload = function() {
+        var tagline = document.querySelector(".message");
+        var randomGreeting = Math.floor(Math.random() * 8);
+        var greeting = ["It's gone.", "You're living a lie!", "Congratulations!", "Did you think something would be here?", "Don't look at me, now... I don't have anything.", "It's all in your head, my friend.", "You're not supposed to be here...", "Well, you tried."];
+        tagline.innerHTML = greeting[randomGreeting];
+      };
+    </script>
+
+    <!--Favicon Crap-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#057aff">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <div class="container" id="content">
+      <h4 class="error">404</html>
+      <h1 class="message">Insert witty message here</h1>
+      <h3 class="subtitle">The page you were looking for could not be found or does not exist.</h3>
+      <br>
+      <a href="javascript:history.back()" class="btn btn-outline-primary">Back to previous page</a>
+
+    </div>
+  </body>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+    body {
+      font-family: 'Lato', sans-serif;
+      background-color: #ECF3FA;
+    }
+
+    .error {
+      color: #b9b9b9;
+    }
+
+    .message {
+      font-size: 40pt;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+
+    #content {
+       padding-top: 10rem;
+       text-align: center;
+    }
+
+    /* Portrait and Landscape */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+      #content {
+         padding-top: 3rem;
+         text-align: center;
+      }
+
+      .message {
+        font-size: 24pt;
+      }
+
+      .subtitle {
+        font-size: 14pt;
+      }
+
+    }
+  </style>
+</html>

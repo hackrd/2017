@@ -206,6 +206,7 @@ a:hover {
 #card-info {
   margin-top: -3rem;
   text-align: center;
+  z-index: 99999;
 }
 
 #card-info h3 {
