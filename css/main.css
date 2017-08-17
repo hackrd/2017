@@ -171,6 +171,17 @@ a:hover {
   text-align: center;
 }
 
+#check-img {
+  margin: auto;
+  max-width: 35%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+#confirm-subtitle {
+  padding-bottom: 3rem;
+}
+
 .logo-overlay h1 {
   font-size: 70pt;
   font-weight: 500;
@@ -827,6 +838,19 @@ tr {
       right: 10px;
     }
 
+    #check-img {
+      padding-top: 3rem;
+    }
+
+    #confirm-title {
+      font-size: 24pt;
+    }
+
+    #confirm-subtitle {
+      font-size: 14pt;
+      padding-bottom: 3rem;
+    }
+
 
   }
 
@@ -904,6 +928,20 @@ tr {
 
     #event-notes {
       display: none !important;
+    }
+
+    #check-img {
+      width: 7rem;
+      padding-bottom: 1rem;
+    }
+
+    #confirm-title {
+      font-size: 24pt;
+    }
+
+    #confirm-subtitle {
+      font-size: 14pt;
+      padding-bottom: 1rem;
     }
 
 

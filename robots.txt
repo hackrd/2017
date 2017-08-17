@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /team.html
 Disallow: /404.html
 Disallow: /privacy.html
+Disallow: /confirm.html
