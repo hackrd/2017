@@ -526,7 +526,6 @@ tr {
 .navbar-transparent .brand-logo {
   content: url("../img/nav-title-white.png");
   height: 2rem;
-  width: auto;
 }
 
 .navbar-transparent .navbar-nav .nav-link {
@@ -802,7 +801,7 @@ tr {
         }
 
         .brand-logo {
-          margin-left: -0.5rem;
+          height: 1.75rem !important;
         }
 
         #card-info h3 {
@@ -1046,7 +1045,7 @@ tr {
           }
 
           .brand-logo {
-            margin-left: -0.5rem;
+            height: 1.7rem !important;
           }
 
           #card-info h3 {
