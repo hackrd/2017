@@ -1045,7 +1045,7 @@ tr {
           }
 
           .brand-logo {
-            height: 1.7rem !important;
+            height: 1.7rem;
           }
 
           #card-info h3 {
@@ -1109,6 +1109,249 @@ tr {
         and (device-height: 640px)
         and (-webkit-device-pixel-ratio: 3)
         and (orientation: landscape) {
+
+          body {
+            padding-bottom: 12rem;
+          }
+
+
+          .footer-content {
+            position: relative;
+            padding-left: 10px;
+            padding-top: 10px;
+          }
+
+          .footer-links {
+            text-align: right;
+            bottom: 0;
+            left: 10;
+            right: 0;
+            padding-bottom: 1rem;
+            font-size: 10pt;
+          }
+
+          .footer-logo {
+            max-width: 125px;
+            padding-bottom: 10px;
+          }
+
+          .logo {
+            width: 50%;
+            margin-top: 0rem;
+            margin-left: -2rem;
+          }
+
+          /*.brand-logo {
+            max-width: 4rem;
+          }*/
+
+          #card-info h3 {
+            font-size: 10pt;
+
+          }
+
+          .btn-extend {
+            width: 7rem;
+            margin-top: 0.35rem;
+            font-size: 10pt
+          }
+
+          .section-card {
+            padding-top: 2px;
+            width: 90%;
+            padding: 20px 0px 20px 20px;
+          }
+
+          .thumbnail-card {
+          max-width: 50%;
+          }
+
+          td {
+           font-size: 11pt !important;
+          }
+
+          #event-time {
+            width: 60px !important;
+          }
+
+          #event-name {
+            width: 175px !important;
+          }
+          #event-location {
+            width: 150px !important;
+          }
+
+          #event-notes {
+            display: none !important;
+          }
+
+          #check-img {
+            width: 7rem;
+            padding-bottom: 1rem;
+          }
+
+          #confirm-title {
+            font-size: 24pt;
+          }
+
+          #confirm-subtitle {
+            font-size: 14pt;
+            padding-bottom: 1rem;
+          }
+
+      }
+
+    /* iPhone 5 and 5S  */
+      /* Portrait and Landscape */
+      @media only screen
+        and (min-device-width: 320px)
+        and (max-device-width: 568px)
+        and (device-aspect-ratio: 40/71) {
+
+          .logo-overlay {
+            font-size: 35pt;
+          }
+
+          .section-heading {
+            padding-top: 30px;
+          }
+
+          #mobile-img {
+            display: block !important;
+          }
+
+          #desktop-img {
+            display: none !important;
+          }
+
+          .nav-pills .nav-link {
+            font-size: 12pt;
+          }
+
+          .section {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+          }
+
+      }
+
+      /* Portrait */
+      @media only screen
+        and (min-device-width: 320px)
+        and (max-device-width: 568px)
+        and (orientation: portrait)
+        and (device-aspect-ratio: 40/71) {
+
+          body {
+            padding-bottom: 12rem;
+          }
+
+          .footer {
+            height: 12rem;
+          }
+
+          .social-icons {
+            padding-top: 1rem;
+          }
+
+          .icon {
+            max-width: 30px;
+            padding-left: 3px;
+            padding-right: 3px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          }
+
+          .footer-content {
+            text-align: center;
+          }
+
+          .footer-links {
+            text-align: center;
+            position: relative !important;
+            font-size: 11pt;
+            margin-top: -15 !important;
+            max-height: 50%;
+            padding-bottom: 0 !important;
+          }
+
+          .footer-logo {
+            max-width: 120px;
+            padding-bottom: 10px;
+          }
+
+          #header {
+            height: 70vh
+          }
+
+          .logo {
+            max-width: 85%;
+          }
+
+          .brand-logo {
+            height: 1.5rem !important;
+            margin-left: -0.5rem;
+          }
+
+          #card-info h3 {
+            font-size: 12pt;
+
+          }
+
+          .section-card {
+            padding-top: 2px;
+            width: 90%;
+            padding: 10px 10px 10px 10px;
+            background-color: #fff;
+          }
+
+          td {
+           font-size: 11pt !important;
+          }
+
+          #event-time {
+            width: 70px !important;
+          }
+
+          #event-name {
+            width: 130px !important;
+          }
+          #event-location {
+            width: 80px !important;
+          }
+
+          #event-notes {
+            display: none !important;
+          }
+
+          .schedule-muted {
+            display: none;
+          }
+
+          #mlh-trust-badge {
+            right: 10px;
+          }
+
+          #check-img {
+            padding-top: 3rem;
+          }
+
+          #confirm-title {
+            font-size: 24pt;
+          }
+
+          #confirm-subtitle {
+            font-size: 14pt;
+            padding-bottom: 3rem;
+          }
+      }
+
+      /* Landscape */
+      @media only screen
+        and (min-device-width: 320px)
+        and (max-device-width: 568px)
+        and (orientation: landscape)
+        and (device-aspect-ratio: 40/71) {
 
           body {
             padding-bottom: 12rem;
