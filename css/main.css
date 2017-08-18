@@ -791,13 +791,17 @@ tr {
       padding-bottom: 10px;
     }
 
+    #header {
+      height: 70vh
+    }
+
     .logo {
       max-width: 85%;
     }
 
-    /*.brand-logo {
-      max-width: 3rem;
-    }*/
+    .brand-logo {
+      margin-left: -0.5rem;
+    }
 
     #card-info h3 {
       font-size: 12pt;
