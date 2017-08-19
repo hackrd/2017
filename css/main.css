@@ -856,6 +856,10 @@ tr {
           padding-bottom: 3rem;
         }
 
+        #sign-up-box {
+          padding-top: 1rem;
+        }
+
 
       }
 
@@ -1098,6 +1102,10 @@ tr {
           #confirm-subtitle {
             font-size: 14pt;
             padding-bottom: 3rem;
+          }
+
+          #sign-up-box {
+            padding-top: 1rem;
           }
 
 
