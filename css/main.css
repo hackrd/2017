@@ -40,19 +40,19 @@ body {
 
 a {
   cursor: pointer;
-  color: #333399;
+  color: #3E63D3;
 }
 
 a:hover {
   color: inherit;
-  color: #333399;
-  opacity: .75;
+  color: #3E63D3;
+  opacity: .6;
 }
 
 #header {
   display: table;
   color: #FFF;
-  background: linear-gradient(to bottom right, #057AFF, #42449D);
+  background: linear-gradient(to bottom right, #057AFF, #6A2FD6);
   background-repeat: no-repeat;
   height: 80vh;
   z-index: -99999999999;
@@ -60,7 +60,7 @@ a:hover {
 
 #header-sm {
   color: #FFF;
-  background: linear-gradient(150deg, #057AFF 0%, #42449D 85%);
+  background: linear-gradient(150deg, #057AFF 0%, #6A2FD6 85%);
   background-repeat: no-repeat;
   height: 18rem;
   z-index: -99999999999;
