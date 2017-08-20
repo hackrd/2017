@@ -418,10 +418,6 @@ a:hover {
   font-size: 14pt;
 }
 
-.nav-pills .nav-link > .active {
-  color: red !important;
-}
-
 .nav-pills .nav-link.active, .nav-pills .nav-item.show .nav-link {
     color: #000;
     display: inline-block;
