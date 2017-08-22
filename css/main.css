@@ -856,6 +856,14 @@ tr {
           padding-top: 1rem;
         }
 
+        .signup-title {
+          font-size: 16pt;
+        }
+
+        #codeofconduct {
+          font-size: 10pt;
+        }
+
 
       }
 
@@ -906,10 +914,19 @@ tr {
 
         }
 
-        .btn-extend {
+        #sign-up-box .btn-extend {
           width: 7rem;
           margin-top: 0.35rem;
           font-size: 10pt
+        }
+
+        #bottom-signup .btn-extend {
+          width: 7rem;
+          margin-top: 0.35rem;
+        }
+
+        .signup-title {
+          font-size: 18pt;
         }
 
         .section-card {
