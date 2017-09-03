@@ -864,6 +864,14 @@ tr {
           font-size: 10pt;
         }
 
+        #page-head .page-title {
+          font-size: 30pt;
+        }
+
+        #page-head .page-subtitle {
+          font-size: 12pt;
+        }
+
 
       }
 
@@ -970,6 +978,22 @@ tr {
         #confirm-subtitle {
           font-size: 14pt;
           padding-bottom: 1rem;
+        }
+
+        #header-sm {
+          height: 12rem;
+        }
+
+        #page-head {
+          padding-top: 5rem;
+        }
+
+        #page-head .page-title {
+          font-size: 24pt;
+        }
+
+        #page-head .page-subtitle {
+          font-size: 11pt;
         }
 
 
@@ -1121,6 +1145,14 @@ tr {
             padding-top: 1rem;
           }
 
+          #page-head .page-title {
+            font-size: 30pt;
+          }
+
+          #page-head .page-subtitle {
+            font-size: 12pt;
+          }
+
 
       }
 
@@ -1218,6 +1250,22 @@ tr {
           #confirm-subtitle {
             font-size: 14pt;
             padding-bottom: 1rem;
+          }
+
+          #header-sm {
+            height: 12rem;
+          }
+
+          #page-head {
+            padding-top: 5rem;
+          }
+
+          #page-head .page-title {
+            font-size: 24pt;
+          }
+
+          #page-head .page-subtitle {
+            font-size: 11pt;
           }
 
       }
