@@ -5,3 +5,4 @@ Disallow: /privacy.html
 Disallow: /confirm.html
 Disallow: /img/*
 Disallow: /favicons/*
+Disallow: /docs/*
