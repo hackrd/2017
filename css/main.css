@@ -54,11 +54,19 @@ a:hover {
   color: #FFF;
   background: linear-gradient(to bottom right, #057AFF, #6A2FD6);
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 90vh;
   z-index: -99999999999;
 }
 
 #header-sm {
+  color: #FFF;
+  background: linear-gradient(150deg, #057AFF 0%, #6A2FD6 85%);
+  background-repeat: no-repeat;
+  height: 18rem;
+  z-index: -99999999999;
+}
+
+#header-live {
   color: #FFF;
   background: linear-gradient(150deg, #057AFF 0%, #6A2FD6 85%);
   background-repeat: no-repeat;
@@ -83,7 +91,7 @@ a:hover {
 
 .footer {
   color: #FFF;
-  background: linear-gradient(to right, #057AFF, #42449D);
+    background: linear-gradient(125deg, #057AFF 0%, #6A2FD6 70%);
   height: 10rem;
   position: absolute;
   padding-top: .5rem;
@@ -569,6 +577,54 @@ tr {
 .navbar-inverse .nav-link, .nav-item:hover {
   color: #FFF !important;
 }
+
+/* Gradient Nav */
+.navbar-gradient {
+  background: linear-gradient(to right, #057AFF, #6A2FD6);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  border-bottom: 3.5px solid transparent;
+}
+
+.navbar-gradient .navbar-brand,
+.navbar-gradient .navbar-text {
+  color: #fff;
+}
+
+.navbar-gradient .brand-logo {
+  content: url("../img/nav-title-white.png");
+  height: 2rem;
+}
+
+.navbar-gradient .navbar-nav .nav-link {
+  color: rgba(255, 255, 255) !important;
+  border-bottom: 3.5px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.navbar-gradient .nav-link,
+.navbar-gradient .nav-item:hover .nav-link {
+  font-size: 12pt;
+  color: #FFF;
+  border-bottom: 3.5px solid #FAFAFA;
+  transition: all 0.2s ease;
+}
+
+.navbar-gradient .nav-item .active {
+  border-bottom: 3.5px solid #fff !important;
+}
+
+.navbar-gradient .dropdown-menu {
+  background-color: #FFF;
+}
+.navbar-gradient .dropdown-item {
+  color: #000;
+}
+.navbar-gradient .dropdown-item:hover,
+.navbar-gradient .dropdown-item:focus {
+  color: #333333;
+  background-color: rgba(255,255,255,.5);
+}
+
 
 /* Default Nav */
 
