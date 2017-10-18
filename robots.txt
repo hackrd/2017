@@ -6,4 +6,4 @@ Disallow: /confirm.html
 Disallow: /img/*
 Disallow: /favicons/*
 Disallow: /docs/*
-Disallow: /register.html
+Disallow: /live.html
