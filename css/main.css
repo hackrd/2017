@@ -396,11 +396,11 @@ a:hover {
 }
 
 .btn-three {
-  color: #095bb8 !important;
+  color: #aa2a2a !important;
   background-color: transparent;
   border-radius: 0px;
   border-width: 2px;
-  border-color: #095bb8;
+  border-color: #aa2a2a;
   font-weight: 500 !important;
   font-family: 'Poppins', sans-serif;
   font-size: 14pt;
@@ -412,8 +412,8 @@ a:hover {
 }
 
 .btn-three:hover {
-  color: #095bb8 !important;
-  background-color: rgba(9, 91, 184, 0.5);
+  color: #aa2a2a !important;
+  background-color: rgba(170, 42, 42, 0.5);
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
 	transition: all ease 0.2s;
