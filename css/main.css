@@ -533,7 +533,7 @@ tr {
 }
 
 .navbar-transparent .navbar-nav .nav-link {
-  color: rgba(255, 255, 255) !important;
+  color: rgba(255, 255, 255);
   border-bottom: 3.5px solid transparent;
   transition: all 0.2s ease;
 }
@@ -575,7 +575,7 @@ tr {
 }
 
 .navbar-inverse .nav-link, .nav-item:hover {
-  color: #FFF !important;
+  color: #000 !important;
 }
 
 /* Gradient Nav */
